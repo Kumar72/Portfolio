@@ -18,7 +18,7 @@ body, html {
 
 /* */
 .bgimg-1 {
-	background-color: grey;
+	background-image: url('http://thienanreal.com/wp-content/uploads/2017/08/1907-nen.jpg');
 	min-height: 100%;
 }
 
@@ -47,5 +47,5 @@ body, html {
 }
 
 .w3{
-	
+
 }

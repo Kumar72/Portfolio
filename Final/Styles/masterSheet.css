@@ -15,8 +15,39 @@ body, html {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+#mySidenav a {
+	position: absolute;
+	right: -80px;
+	transition: 0.3s;
+	padding: 15px;
+	width: 100px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	border-radius: 0 5px 5px 0;
+}
 
-/* */
+#mySidenav a:hover {
+	right: 0;
+}
+
+#home {
+	top: 20px;
+	background-color: #4CAF50;
+}
+#about {
+	top: 40px;
+	background-color: #f44336;
+}
+#project {
+	top: 60px;
+	background-color: #4CAF50;
+}
+#post {
+	top: 80px;
+	background-color: #555
+}
+
 .bgimg-1 {
 	background-image: url('http://thienanreal.com/wp-content/uploads/2017/08/1907-nen.jpg');
 	min-height: 100%;

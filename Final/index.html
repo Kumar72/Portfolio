@@ -1,34 +1,65 @@
 <!DOCTYPE html>
-<html lang='en_US' prefix="og:http://ogp.me/ns"
-	class="no-js">
+<html lang='en_US'>
+
 	<head>
 		<meta charset ="utf-8">
 		<title>Chandan Thakur | Portfolio</title>
-		<link hfref = "" rel="icon" type="image/x-icon"/>
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" type="text/css" href="/Users/Kumar/Central/Resolution_Projects18/Portfolio Webpage/Final/Styles/masterSheet.css"
-	</head>
-	<body>
-	<div class="">
-		<!-- Navbar (sit's on top) -->
-		<div class="w3-top">
-			<div class="w3-bar" id="myNavbar">
-				<a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-					<i class="fa fa-bars"></i>
-				</a>
 
-				<a href="#landing-page" class="w3-bar-item w3-button">LANDING PAGE</a>
-				<a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>ABOUT</a>
-				<a href="#skills" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i>SKILLS</a>
-				<a href="#skills" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i>PROJECTS</a>
-				<a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i>CONTACT</a>
-				<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"><i class="fa fa-search"></i></a>
+		<link rel="stylesheet" type="text/css" href="/Users/Kumar/Central/Resolution_Projects18/Portfolio Webpage/Final/Styles/masterSheet.css">
+		<script scr="/Users/Kumar/Central/Resolution_Projects18/Portfolio Webpage/Final/Scripts/app.js"></script>
+
+
+		<!-- bootstrap  -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+
+
+	<body>
+	<div class="container-fluid">
+		<!-- Navigation-bar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">LOGO</a>
+				<ul class="nav navbar-nav navbar-right">
+					<button type="button" class="btn btn-lg btn-link" data-toggle="modal" data-target="#menuModal">&#9776;</button>
+
+					<div class="modal fade" id="menuModal" role="dialog">
+						<div class="modal-dialog">
+
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">Menu</h4>
+								</div>
+								<div class="modal-body">
+									<p>Porfolio</p>
+									<p>About Me</p>
+									<p>Experience</p>
+									<p>Gallery</p>
+									<p>Blog</p>
+									<p>Connect</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</ul>
 			</div>
-			<!-- Navbar for small screen-->
-			<div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-			</div>
+		</nav>
+
+		<div class="sidenav" id="mySidenav">
+			<a href="#" id="home">-</a>
+			<a href="#" id="about">-</a>
+			<a href="#" id="project">-</a>
+			<a href="#" id="post">-</a>
 		</div>
 
 
@@ -141,6 +172,7 @@
 				<span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
 			</div>
 		</div>
+
 
 		<div id="contact" class="w3-content w3-container w3-padding-64">
 			<h3 class="w3-center">More INFO</h3>

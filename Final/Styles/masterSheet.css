@@ -1,5 +1,5 @@
 body, h1, h2, h3, h4, h5, h6 {
-	font-family: "Lato", sans-serif;
+	font-family: "Spectral SC", serif;
 }
 
 body, html {
@@ -7,76 +7,12 @@ body, html {
 	color: #777;
 	line-height: 1.8;
 }
-
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-#mySidenav a {
-	position: absolute;
-	right: -80px;
-	transition: 0.3s;
-	padding: 15px;
-	width: 100px;
-	text-decoration: none;
-	font-size: 20px;
-	color: white;
-	border-radius: 0 5px 5px 0;
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
 }
 
-#mySidenav a:hover {
-	right: 0;
-}
-
-#home {
-	top: 20px;
-	background-color: #4CAF50;
-}
-#about {
-	top: 40px;
-	background-color: #f44336;
-}
-#project {
-	top: 60px;
-	background-color: #4CAF50;
-}
-#post {
-	top: 80px;
-	background-color: #555
-}
-
-.bgimg-1 {
-	background-image: url('http://thienanreal.com/wp-content/uploads/2017/08/1907-nen.jpg');
-	min-height: 100%;
-}
-
-.bgimg-2 {
-	background-color: blue;
-	min-height: 400px;
-}
-
-.bgimg-3 {
-	background-color: purple;
-	min-height: 400px;
-}
-
-.w3-wide {
-	letter-spacing: 10px;
-}
-
-.w3-hover-opacity {
-	cursor: pointer;
-}
-
-@media only screen and (max-device-width: 1024px) {
-	.bgimg-1, .bgimg-2, .bgimg-3 {
-		background-attachment: scroll;
-	}
-}
-
-.w3{
-
+footer {
+	background-color: grey;
+	padding: 25px;
 }
